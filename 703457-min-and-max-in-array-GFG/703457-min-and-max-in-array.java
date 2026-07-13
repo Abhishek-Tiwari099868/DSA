@@ -1,28 +1,25 @@
 class Solution {
-    public ArrayList<Integer> getMinMax(int[] arr) {
-      int min = arr[0];
-      int max =arr[0];
-      
-      for(int num :arr){
-          if (num < min){
-              min = num;
-          }
-          
-          if(num > max){
-              max = num;
-          }
-      }
-      
-      ArrayList<Integer> result = new ArrayList<>();
-      result.add(min);
-      result.add(max);
-      
-      return result;
-      
-      
-      
-        
-    }
+	public ArrayList<Integer> getMinMax(int[] arr) {
+		int min = arr[0];
+		int max = arr[0];
+		
+		for (int num :arr) {
+			if (num < min) {
+				min = num;
+			}
+			
+			if (num > max) {
+				max = num;
+			}
+		}
+		
+		ArrayList<Integer> result = new ArrayList<>();
+		result.add(min);
+		result.add(max);
+		
+		return result;
+		
+	}
 }
 
 
