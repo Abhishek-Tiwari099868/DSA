@@ -1,13 +1,13 @@
 class Solution {
-    static int sumOfDigits(int n) {
-        int sum = 0;
-        for(;n >0; n =n/10){
-            int digit = n%10;
-            sum = sum+digit;
-            
-        }
-        return sum;
-    }
+	static int sumOfDigits(int n) {
+		int sum = 0;
+		for (; n >0; n = n/10) {
+			int digit = n%10;
+			sum = sum + digit;
+			
+		}
+		return sum;
+	}
 }
 
 
